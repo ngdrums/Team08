@@ -10,12 +10,22 @@
 
 <body>
     <script src="fuggvenyek.js"></script>
-    <script>iloveTypeScript()
+    <script src="osszetettValtozoTipusok.ts"></script>
+    <script src="osztalyok.ts"></script>
+    <script>
+        iloveTypeScript()
         NegyzetKeruletTeruletEljaras(5);
-        let generaltSzam = RandomGeneralo1000Fuggveny();
-        document.write(generaltSzam);
-        let negyzetKerulet = NegyzetKeruletFuggveny(3);
-        document.write(generaltSzam);
+        //document.write("<br>");
+        //let generaltSzam = RandomGeneralo100Fuggveny();
+        //document.write(generaltSzam);
+        //let negyzetKerulet = NegyzetKeruletFuggveny(3);
+        //document.write(generaltSzam);
+        TeglalapKeruletTerulet(3, 4);
+        let parosEElem = 7;
+        document.write("<br> A parosra vizsgalt szam:" + parosEElem + " Eredmenye:" + ParosE(parosEElem));
+        document.write("<br> A generált primszam " + IntervallumPrimGenerator(10, 20));
+
+
 
     </script>;
 
